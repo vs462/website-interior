@@ -45,7 +45,7 @@ p {
 
 .stage {
   position: relative;
-    background: white;
+  background: white;
   
 }
 .header {
@@ -66,23 +66,6 @@ p {
     letter-spacing: -1px;
 }
 
-.nav-btn,
-.nav-btn__svg {
-    width: 56px;
-    height: 30px;
-}
-
-.nav-btn {
-    display: block;
-    margin: -2px 0 0 56px;
-    
-    @media all and (max-width: 768px) {
-        margin: 18px 0 0 -6px;
-    }
-}
-.nav-btn__svg {
-    pointer-events: none;
-}
 
 .box_menu {
   background-color: lightgrey;
@@ -111,7 +94,8 @@ p {
     font-weight: 100;
     letter-spacing: -1vw;
     padding-right: 2.3vw;
-    text-align: right;
+    text-align: center;
+    color: white;
 
 
 .footer {
