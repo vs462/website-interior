@@ -12,10 +12,22 @@ body {
 }
 
 #header-nav{
-  background-color: yellow;
-  border-radius: 0
-  border: 100;
+  border-radius: 0;
 }
+
+#nav-title{
+  margin: 30px 0px 0px 0px;
+  color: black;
+  line-height: 10pt;
+  font-family: Oranienbaum;
+}
+
+#nav-subtitle{
+  color: black;  
+  margin: 0px 0px 0px 10px;
+}
+
+
 .row {
   margin-bottom: 15px;
 }
@@ -23,5 +35,4 @@ body {
   border: 2px solid red;
   background-color: gray;
 }
-
 
