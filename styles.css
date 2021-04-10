@@ -2,7 +2,7 @@
 url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
 
 body {
-    background-color: #cecece;
+    background-color: #DADADA;
     font-family: Oranienbaum, serif;
     font-size: 20px;
     color: white;
@@ -23,6 +23,27 @@ body {
   margin-left: 0;
   margin-bottom: 0;
   line-height: 0.7;  
+}
+
+.home-page{
+  text-align: center;
+}
+
+#home-page-image{
+  margin-top: 10em;
+}
+
+#home-page-title h1{
+  text-transform: uppercase;
+  margin-top: 10px;
+  font-size: 10em;
+  font-family: Slabo 27px;
+  
+}
+
+#home-page-text{
+  margin-top: 10px;
+  font-size: 30px;
 }
 
 .navbar-brand a:hover, .navbar-brand a:focus {
